@@ -46,6 +46,11 @@ def checkPolicy(passwd):
   else:
     return False
 
+"""
+This tool is used in combination with some of the following libraries:
+PyPDF2 - https://github.com/mstamy2/PyPDF2
+License - https://github.com/mstamy2/PyPDF2/blob/master/LICENSE
+"""
 def main():
   print('====start process====')
   inputPdfFilePaths = glob.glob(INPUT_PDF_DIR + '/*.pdf')
